@@ -5,5 +5,6 @@
 
 (serve/servlet my-app
                #:port 8080
+               #:listen-ip #f
                #:servlet-path "/hello"
                #:launch-browser? #f)
