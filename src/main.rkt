@@ -6,4 +6,4 @@
 (serve/servlet my-app
                #:port 8080
                #:servlet-path "/hello"
-               #:launch-browser? false)
+               #:launch-browser? #f)
