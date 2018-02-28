@@ -1,4 +1,4 @@
-FROM jackfirth/racket:6.12
+FROM jackfirth/racket:6.12 as build
 WORKDIR /app
 COPY src/ /app
 RUN raco pkg install --auto --batch
