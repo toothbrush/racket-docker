@@ -17,4 +17,4 @@ test: ## Run the app tests.
 		--cache-from ${IMAGE_NAME}:master \
 		--file Dockerfile.test .
 
-all: build test
+all: test build
